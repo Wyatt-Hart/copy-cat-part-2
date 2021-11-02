@@ -1,0 +1,108 @@
+* {
+    /* border: 1px solid darkgreen; */
+    font-weight: bold;
+}
+header{
+    background-color: rgb(35, 41, 65);
+    margin: auto;
+}
+header > .container {
+    max-width: 75vw;
+    color: white;
+}
+.header-logo {
+    width: 15rem;
+    margin: auto;
+    display: block;
+}
+.nav-link > a {
+    color: white;
+}
+.slideshow {
+    width: 95vw;
+    height:35vw;
+    max-height: 45vh;
+    margin: auto;
+    background-image: url(//cdn.shopify.com/s/files/1/0141/2084/5370/files/many_30_2000x2000.jpg?v=1615032376);
+    background-position: center;
+    background-size: cover;
+}
+.slideshow-img {
+    width: 100%;
+    height: 100%;
+}
+.slideshow-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    max-width: 90%;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.75rem;
+    line-height: 1.2;
+}
+.slideshow-text > h2 {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.highlights-banner {
+    margin: 0;
+    padding: 0;
+}
+.highlights-banner > li {
+    list-style: none;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
+.highlight-header {
+    margin-bottom: -1vh;
+}
+.highlight-filler {
+
+    font-weight: normal;
+}
+main > .container > h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.customers-imgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: auto;
+}
+.customers-imgs > img {
+    margin: auto;
+}
+footer {
+    background-color: rgb(237, 239, 243);
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 75vw;
+    margin: auto;
+}
+.footer-block {
+    width: 20%;
+    margin: 1rem;
+    font-size: small;
+}
+.footer-block > h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.footer-block > div > p{
+    font-weight: normal;
+}
